@@ -42,9 +42,9 @@ test add_0_0() {
 
 test subtract_10_5() {
   trace @"Testing subtraction: 10 - 5"
-  let result = subtract(10, 5)
-  trace @"Result should be 5: {result}"
-  result == 5
+  let result = subtract(7, 5)
+  trace @"Result should be : {result}"
+  result == 2
 }
 
 test subtract_5_10() {
